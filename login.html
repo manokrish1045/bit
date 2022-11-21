@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login - STARHotel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body style="font-family: sans-serif;">
+
+
+    <nav class="navbar">
+        <span class="logo" style="margin-right: 90px;">STARHotel</span>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="reservation.html">Booking</a>
+        <a href="rooms.html">Venues</a>
+        <a href="location.html">Location</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="active" style="color: chocolate;">LOGIN</a>
+        <a href="signup.html">Sign Up</a>
+    </nav>
+
+
+    <div>
+        <label class="login" style="padding-top: 100px;">LOGIN</label> <br>
+
+        <div class="row">
+            <form action="login.html">
+
+                <input class="inputcon" type="text" placeholder="Username"
+                    style="width: 450px; height: 50px; padding: 15px; border-color: chocolate; border-radius: 10px;">
+                <br>
+                <input class="inputcon" type="password" placeholder="Password"
+                    style="width: 450px; height: 50px; padding: 15px; border-color: chocolate; border-radius: 10px;"><br /><br />
+
+                <br>
+
+
+                <button class="bttn" value="SEND MESSAGE" style="width: 450px;
+                                  font-weight: bold; 
+                                  font-size: 17px;
+                                  background-color: chocolate; 
+                                  color: white; 
+                                  padding: 15px;
+                                  border-color: chocolate;
+                                  border-style: solid;
+                                  border-radius: 10px;
+                                  ">Login
+                </button>
+
+            </form>
+        </div>
+        <br />
+        <b>
+            <span>Create an account?</span><span style="text-decoration: none;"><a href="signup.html"
+                    style="text-decoration: none; color:chocolate;"> Sign up</a></span>
+        </b>
+
+
+    </div>
+
+    <footer>
+        <a href="index.html" class="logo" style="text-decoration: none; color: white; font-size: 20px; ">STARHotel</a>
+        <span>&nbsp;|&nbsp; www.bitsathy.ac.in</span>
+    </footer>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        .logo {
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(90, 24, 152);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 19px 19px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .navbar a:hover {
+            background: white;
+            color: chocolate;
+            border-radius: 10px;
+        }
+
+        .row {
+            padding-top: 30px;
+        }
+
+
+        /* .container {
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-family: inherit;
+            font-size: 70px;
+        }
+
+        .active {
+            background-color: white;
+            color: chocolate;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        * {
+            box-sizing: border-box;
+        } */
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 17px;
+        }
+
+        .column2 {
+            float: left;
+            width: 50%;
+            padding: 17px;
+        }
+
+        .column3 {
+            float: left;
+            width: 33.33%;
+            padding: 17px;
+        }
+
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        h1,
+        p {
+            text-align: center;
+
+        }
+
+        label {
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .bttn {
+            width: 240px;
+            height: 50px;
+            background-color: white;
+            font-size: 15px;
+            border: none;
+            font-weight: bold;
+            background-color: lightgreen;
+            border-style: solid;
+            border-color: lightgreen;
+            color: black;
+
+        }
+
+        .bttn:hover {
+            border: 1px solid green;
+            background: forestgreen;
+            color: white;
+        }
+
+        .navbar button:hover {
+            background: #ddd;
+            color: #f46f3a;
+            border-radius: 10px;
+        }
+
+        /* .inputcon {
+            width: 650px;
+            height: 50px;
+            padding: 15px;
+        } */
+
+        /* input {
+            width: 240px;
+            height: 50px;
+            padding: 15px;
+            border-style: solid;
+            border-color: white;
+            font-size: 15px;
+
+        } */
+
+        /* select {
+            margin-bottom: 15px;
+            width: 240px;
+            height: 50px;
+            font-size: 15px;
+            border-color: white;
+        } */
+
+        footer {
+            text-align: center;
+            padding: 17px;
+            background-color: rgb(90, 24, 152);
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</body>
+
+</html>
